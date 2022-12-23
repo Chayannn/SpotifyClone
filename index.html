@@ -19,74 +19,58 @@
         </ul>
     </nav>
     <div class="container">
-
-        <div class="songlist">
-            <h1>Best of The Weekend</h1>
-            <div class="song-container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
                 <div class="songItem">
-                    <img src="covers/1.jpg" alt="">
-                    <span>Call out my name</span>
-                    <span class="songlistplay"><span class=" time-stamp">03:48 <i
-                                class="far fa-play-circle"></i></span></span>
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="0"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="1"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="2"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="3"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="4"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="5"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="6"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="7"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
                 </div>
             </div>
-            <div>
-                <div class="songItem">
-                    <img src="covers/2.jpeg" alt="">
-                    <span>Blinding Lights</span>
-                    <span class="songlistplay"><span class=" time-stamp">03:20 <i
-                                class="far fa-play-circle"></i></span></span>
-                </div>
-            </div>
-            <div>
-                <div class="songItem">
-                    <img src="covers/3.png" alt="">
-                    <span>Star Boy</span>
-                    <span class="songlistplay"><span class=" time-stamp">03:50 <i
-                                class="far fa-play-circle"></i></span></span>
-                </div>
-            </div>
-            <div>
-                <div class="songItem">
-                    <img src="covers/2.jpeg" alt="">
-                    <span>Save Your Tears</span>
-                    <span class="songlistplay"><span class=" time-stamp">03:35 <i
-                                class="far fa-play-circle"></i></span></span>
-                </div>
-            </div>
-            <div>
-                <div class="songItem">
-                    <img src="covers/2.jpeg" alt="">
-                    <span>Heart Less</span>
-                    <span class="songlistplay"><span class=" time-stamp">03:18 <i
-                                class="far fa-play-circle"></i></span></span>
-                </div>
-            </div>
-            <div>
-                <div class="songItem">
-                    <img src="covers/4.jpeg" alt="">
-                    <span>Can't Feel My Face</span>
-                    <span class="songlistplay"><span class=" time-stamp">03:33 <i
-                                class="far fa-play-circle"></i></span></span>
-                </div>
-            </div>
-            <div>
-                <div class="songItem">
-                    <img src="covers/4.jpeg" alt="">
-                    <span>The Hills</span>
-                    <span class="songlistplay"><span class=" time-stamp">04:02 <i
-                                class="far fa-play-circle"></i></span></span>
-                </div>
-            </div>
-            <div>
-                <div class="songItem">
-                    <img src="covers/5.jpg" alt="">
-                    <span>Pray For Me</span>
-                    <span class="songlistplay"><span class=" time-stamp">03:31 <i
-                                class="far fa-play-circle"></i></span></span>
-                </div>
-            </div>
-
         </div>
         <div class="songbanner">
 
@@ -96,12 +80,12 @@
         <input type="range" name="range" id="myProgressbar" min="0" max="100">
         <div class="icons">
             <!-- font awesomeICons -->
-            <i class="fas fa-3x fa-step-backward"></i>
-            <i class="far fa-3x fa-play-circle"></i>
-            <i class="fas fa-3x fa-step-forward"></i>
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
         </div>
         <div class="songInfo">
-            <img src="playing.gif" alt="">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Call Out My Name</span>
         </div>
     </div>
     <script src="script.js"></script>
